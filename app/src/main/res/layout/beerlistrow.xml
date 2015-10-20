@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:clickable="false"
+              android:orientation="vertical"
+              android:weightSum="2"
+              android:padding="20dp"
+    >
+
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="name of beer"
+            android:textColor="#45e500"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/abvLayout">
+
+
+    <TextView
+            android:id="@+id/abvTxtlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="abv"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+
+        <TextView
+            android:id="@+id/abvTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="8.0"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/wherefromTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="somewhere"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:id="@+id/priceTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="$5.00"
+            android:textColor="#ef8503"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sizeTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="12oz"
+        android:textColor="#f8e405"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/aboutTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="sdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+        android:textColor="#f8e405"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
